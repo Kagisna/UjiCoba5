@@ -1,0 +1,155 @@
+ *
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1d1f21, #343a40);
+    color: #ffffff;
+}
+
+header {
+    padding: 20px;
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00bfff;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #00bfff, #1d1f21);
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.games {
+    padding: 20px;
+}
+
+.games h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.game-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.game-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.image-container {
+    background-color: #f8f9fa;
+    padding: 20px; /* Ubah dari 200px menjadi 20px agar tidak terlalu besar */
+    border-radius: 300px;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.media-img {
+    width: 25%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.media-img:hover {
+    transform: scale(1.05);
+}
+
+a {
+    color: white;
+    text-decoration: none; /* Menghilangkan garis bawah link (opsional) */
+}
+
+/* Styling untuk search input */
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-container input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: width 0.4s ease-in-out;
+}
+
+.search-container input[type="text"]:focus {
+    width: 400px;
+    outline: none;
+    background-color: #fff;
+}
+
+.search-container input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
